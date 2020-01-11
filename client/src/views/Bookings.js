@@ -122,7 +122,6 @@ class BookingsPage extends Component {
   };
 
   changeOutputTypeHandler = outputType => {
-    alert(outputType);
     if (outputType === "list") {
       this.setState({
         outputType: "list"
